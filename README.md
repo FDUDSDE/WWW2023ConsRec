@@ -6,7 +6,7 @@ This is our implementation for the WWW 2023 full paper:
 **ConsRec: Learning Consensus Behind Interactions for Group Recommendation**
 
 
-### Datasets
+## Datasets
 
 We use two public experimental datasets: **Mafengwo** and **CAMRa2011**. 
 These two datasets' contents are in the `data/` folder.
@@ -19,14 +19,14 @@ Particular, in this dataset, we preserve each item's unique semantics, *i.e.,* i
 We would release this dataset soon.
 
 
-### Dependencies
+## Dependencies
 
 * Python3
 * PyTorch 1.9.1
 * scipy 1.6.2
 
 
-### Run
+## Run
 
 ```
 # For Mafengwo 
@@ -43,7 +43,7 @@ For more running options, please refer to `main.py`
 
 
 
-### Cite 
+## Cite 
  
 If you make advantage of ConsRec in your research, please cite the following in your manuscript:
 
