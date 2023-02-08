@@ -18,6 +18,8 @@ Particular, in this dataset, we preserve each item's unique semantics, *i.e.,* i
 
 We would release this dataset soon.
 
+Besides, we release our implementations of group recommendation baselines [here](https://github.com/FDUDSDE/WWW2023GroupRecBaselines).
+
 
 ## Dependencies
 
