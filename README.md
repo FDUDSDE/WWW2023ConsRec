@@ -1,7 +1,7 @@
 ## WWW2023ConsRec
 
 
-This is our implementation for the WWW 2023 full paper:
+This is our implementation for the WWW 2023 full paper [[arXiv](https://arxiv.org/abs/2302.03555)]:
 
 **ConsRec: Learning Consensus Behind Interactions for Group Recommendation**
 
