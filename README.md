@@ -1,4 +1,4 @@
-## WWW2023ConsRec
+# WWW2023ConsRec
 
 
 This is our implementation for the WWW 2023 full paper [[arXiv](https://arxiv.org/abs/2302.03555)]:
