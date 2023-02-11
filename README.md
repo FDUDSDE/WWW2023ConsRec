@@ -5,7 +5,7 @@ This is official code for the WWW 2023 full paper [[arXiv](https://arxiv.org/abs
 
 **ConsRec: Learning Consensus Behind Interactions for Group Recommendation**
 
-![](./figs/Overview.pdf)
+![](./figs/Overview.png)
 
 In this paper, we focus on exploring consensus behind group behavior data. To comprehensively capture the group consensus, we innovatively design three distinct views, including member-level aggregation, item-level tastes, and group-level inherent preferences.
 Particularly, in the member-level viw, different from existing attentive strategy, we design a novel hypergraph neural network that allows for efficient hypergraph convolutional operations to generate expressive member-level aggregation. 
