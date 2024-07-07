@@ -27,8 +27,17 @@ def evaluate(model, test_ratings, test_negatives, device, k_list, type_m='group'
 
     for idx in range(len(test_ratings)):
         rating = test_ratings[idx]
+        # Important
+        # for testing, we put the ground-truth item as the first one and remaining are negative samples
+        # for evaluation, we check whether prediction's idx is the ground-truth (idx with 0)
         items = [rating[1]]
         items.extend(test_negatives[idx])
+
+        # an alternative
+        # to avoid the dead relu issue where model predicts all candidate items with score 1.0 and thus lead to invalid predictions
+        # we can put the ground-truth item to the last 
+        # for evaluation, the checked ground-truth idx should be 100 in Line 17 & Line 8
+        # items = test_negatives[idx] + [rating[1]]
 
         item_test.append(items)
         user_test.append(np.full(len(items), rating[0]))
